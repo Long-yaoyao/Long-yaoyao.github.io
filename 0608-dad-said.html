@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>0609 Dad said</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background-color: #fafafa;
+            color: #333333;
+            line-height: 1.7;
+            padding: 60px 20px;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .container {
+            max-width: 800px;
+            width: 100%;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 600;
+            color: #111111;
+            text-align: center;
+            margin-bottom: 40px;
+            letter-spacing: -0.5px;
+        }
+
+        .image-container {
+            margin-bottom: 50px;
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .image-container:hover {
+            transform: translateY(-5px);
+        }
+
+        .image-container img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .description {
+            font-size: 1.125rem;
+            font-weight: 400;
+            color: #555555;
+            text-align: center;
+            padding: 0 20px;
+        }
+
+        .description p {
+            margin-bottom: 20px;
+        }
+
+        .date {
+            font-size: 0.875rem;
+            color: #999999;
+            margin-top: 40px;
+            text-align: center;
+        }
+
+        @media (max-width: 640px) {
+            h1 {
+                font-size: 1.875rem;
+            }
+            
+            .description {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>0609 Dad said</h1>
+        
+        <div class="image-container">
+            <img src="https://long-yaoyao.github.io/0608.png" alt="0609 Dad said">
+        </div>
+        
+        <div class="description">
+            <!-- 在这里修改成你想要的介绍文字 -->
+            <p>这是2026年6月8日爸爸说的话，记录下来，永远珍藏。</p>
+            <p>有些话，当时听着普通，回头看才发现，那是他用一生总结出来的道理。</p>
+        </div>
+        
+        <div class="date">
+            2026年6月9日 · 记录
+        </div>
+    </div>
+</body>
+</html>
